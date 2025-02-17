@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@87.5,300..700&family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Inter", sans-serif;
+}
+
+@media screen and (min-width:570px) and (max-width:690px) {
+
+    .carrer,
+    .cases {
+        display: none;
+    }
+}
+
+@media screen  and (min-width:660px) and (max-width:1550px){
+    .typing-container {
+        font-size: 33px;
+        font-weight: bold;
+        color: white;
+        border-right: 4px solid rgb(215, 62, 15);
+        white-space: nowrap;
+        overflow: hidden;
+        width: 0;
+        animation: typing 5s steps(30, end) forwards, blink 0.7s step-end infinite;
+        animation: typing 5s steps(30, end) infinite alternate,
+            blink 0.7s step-end infinite;
+    
+    }
+    
+}
+
+@media screen  and (min-width:0px) and (max-width:660px){
+
+    
+    .after{
+        display: none;
+       
+    }
+    .gate{
+        padding-top: 40px;
+    }
+   
+}
+@media screen  and (max-width:400px) 
+{
+    .log{
+        width: 140px;
+    }   
+}
+button {
+    color: white !important;
+  }
+  button:hover {
+    color: black !important;
+  }
+  form {
+    border: 5px solid white;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  small.error-message {
+    color: black !important;
+    font-size: 14px;
+    display: none;
+  }
+  form{
+    background-color:rgb(215, 62, 15);
+  }
+  #comment,#sub,#email,.user{
+    border: 5px solid black ;
+    outline: none;
+  }
+.user,.email,.sub{
+  width: 100%;
+  height: 7%;
+}
+#comment{
+  width: 100%;
+  height: 25%;
+  
+}
+
+
+
+
+
+  /* Footer */
+  .o0{
+    font-size: 35px;
+  }
+  dt{
+    font-size: 20px;
+  }
+  .lo{
+    display: flex;
+    margin-top: 20px;
+    column-gap: 20px;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .upi{
+    margin: 0px;
+    padding: 0px;
+  }
+  dd{
+    cursor: pointer;
+  }
+  dt{
+    cursor: pointer;
+  }
+ .lki{
+    font-size: 10px;
+ }
+ 
+ .vt {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.git {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.gi {
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+  color: rgb(215, 62, 15);
+  transition: transform 0.5s ease-in-out; 
+
+}
+
+.gi:hover {
+  color: black;
+  transform: rotateY(360deg);
+
+}
+
+.insta {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.in {
+  margin-top: 7px;
+  width: 25px;
+  height: 25px;
+  color: rgb(215, 62, 15);
+  
+  transition: transform 0.5s ease-in-out; 
+}
+
+.in:hover {
+  transform: rotateY(360deg);
+  color: rgb(235, 105, 127);
+}
+
+.face {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.fa {
+  margin-top: 7px;
+  width: 27px;
+  height: 27px;
+  color: rgb(215, 62, 15);
+  transition: transform 0.5s ease-in-out; 
+
+}
+
+.fa:hover {
+  color: blue;
+  transform: rotateY(360deg);
+}
+
+.lin {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.li {
+  margin-top: 7px;
+  width: 25px;
+  height: 25px;
+  color: rgb(215, 62, 15);
+  transition: transform 0.5s ease-in-out; 
+}
+
+.li:hover {
+  color: blue;
+  transform: rotateY(360deg);
+
+}
+
+.po {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: left;
+  padding-left: 20px;
+
+}
+
+.gv {
+
+  background-image: linear-gradient(to right, rgb(0, 0, 79), rgb(0, 0, 79), rgb(0, 0, 79));
+}
